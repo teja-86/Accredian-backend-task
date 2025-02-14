@@ -1,5 +1,6 @@
 const express = require("express");
 const dotenv = require("dotenv").config();
+const path = require("path");
 const referralRoutes = require("./routes/referralRoutes.js");
 const cors = require("cors");
 const app = express();
